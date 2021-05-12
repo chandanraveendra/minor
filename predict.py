@@ -5,10 +5,10 @@ import json
 
 from utils.helpers import convert
 
-with open('./../assets/classifier.pkl', 'rb') as fil:
+with open('./assets/classifier.pkl', 'rb') as fil:
     classifier = pickle.load(fil)
 
-with open('./../assets/classes.pkl', 'rb') as fil:
+with open('./assets/classes.pkl', 'rb') as fil:
     name_map = pickle.load(fil)
 
 # set up inference data correctly
